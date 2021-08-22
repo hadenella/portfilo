@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #a4d57b;
-    --secondary-color: #fec0bd; 
+    --primary-color: #fcdefc;
+    --secondary-color: #c7c1c1; 
     --third-color: #eee;
     --tertiary-color: #464655;
 }
@@ -33,7 +33,7 @@ header h1 {
     display: inline;
 }
 header nav {
-    margin: 4px 0;
+    margin: 25px 0;
   }
 
   header nav ul {
@@ -48,7 +48,7 @@ header nav ul li {
     display:inline-flex;
 }
 header nav ul li a {
-    margin: 0 30px;
+    margin: 0 40px;
     font-weight: lighter;
     font-size: 22px;
     text-shadow: 2px 2px var(--third-color)
@@ -69,7 +69,7 @@ header nav ul li a {
     height: auto;
 } 
 
-/*start of portfilo section*/
+/*start of portfolio section*/
 .project-contrainer {
     display: flex;
     flex-wrap: wrap;
@@ -86,11 +86,14 @@ header nav ul li a {
 .project img:hover {
     filter: grayscale(0%);
 }
-/*end of portfilo section*/
+/*end of portfolio section*/
 /*end of body section*/
 
 /*start of footer section*/
 footer {
     background-color: var(--primary-color); 
+    position: fixed;
+    bottom: 0;
+    width: 100%
 }
 /*end of footer section*/
